@@ -11,9 +11,9 @@ vimrc_file=$HOME/.vimrc
 
 if [ "$1" = "-lite" ]
 then
-  vimrc_url=
+  vimrc_url=https://raw.githubusercontent.com/reinboldg/setup-vim/master/vimrc-lite
 else
-  vimrc_url=
+  vimrc_url=https://raw.githubusercontent.com/reinboldg/setup-vim/master/vimrc
 fi
 
 if [ -f $vimrc_file ]

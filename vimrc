@@ -8,8 +8,8 @@ set ignorecase "Insensible à la casse
 set smartcase "Recherche intelligente sur la casse
 set incsearch "Recherche incrémentale
 set hlsearch "Surligné les résultats de recherche
-set visualbell "Désactiver le bip
-set noerrorbells "Désactiver le bip
+set visualbell "Notification visuelle
+set noerrorbells "Désactiver la notification sonore pour les erreurs
 set number "Afficher le numéro des lignes
 set ruler "Afficher la position du curseur
 set nowrap "Ne pas enrouler les lignes longues
@@ -32,8 +32,8 @@ set tabpagemax=100 "Nombre max. de pages pouvant être ouvertes avec l'option -p
 set encoding=utf-8 "Encodage des caractères
 set termencoding=utf-8 "Encodage des caractères
 
-syntax on "Activer la coloration syntaxique
 filetype plugin indent on "Activer les comportements spécifiques aux types de fichiers comme la syntaxe et l'indentation
+syntax on "Activer la coloration syntaxique
 
 ";; = Echap
 :map ;; <Esc>

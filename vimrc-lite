@@ -1,0 +1,28 @@
+set background=dark "Palette de couleurs selon le fond
+set showcmd "Afficher la commande dans la barre d'état
+set showmatch "Afficher les parenthèses correspondantes
+set ignorecase "Insensible à la casse
+set smartcase "Recherche intelligente sur la casse
+set incsearch "Recherche incrémentale
+set hlsearch "Surligné les résultats de recherche
+set visualbell "Notification visuelle
+set noerrorbells "Désactiver la notification sonore pour les erreurs
+set number "Afficher le numéro des lignes
+set ruler "Afficher la position du curseur
+set wrap "Enrouler les lignes longues
+set scrolloff=3 "Afficher trois lignes autour du curseur
+set backspace=indent,eol,start "Activer le comportement habituel de la touche retour arrière
+set autoindent "Indentation automatique
+set laststatus=2 "Toujours activer la barre d'état
+set cc=80 "Coloriser la colonne 80
+
+"Charger ftplugin.vim
+"Charger indent.vim
+"Essayer de reconnaître le type de fichier
+filetype plugin indent on
+
+syntax on "Activer la coloration syntaxique
+
+";; = Echap
+:map ;; <Esc>
+:imap ;; <Esc>
