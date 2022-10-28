@@ -4,21 +4,17 @@ Le script `setup.sh` permet d'installer ma configuration de Vim.
 
 En plus du fichier `vimrc`, les plugins suivants sont installés.
 
-[pathogen](https://github.com/tpope/vim-pathogen)
+[pathogen](https://github.com/tpope/vim-pathogen) : permet de charger
+automatiquement les plugins présents dans le répertoire `~/.vim/bundle`
 
-Permet de charger automatiquement les plugins présents dans le répertoire `~/.vim/bundle`
+[gitgutter](https://github.com/airblade/vim-gitgutter) : permet de visualiser
+les changements d'un fichier versionné avec Git
 
-[gitgutter](https://github.com/airblade/vim-gitgutter)
+[nerdtree](https://github.com/preservim/nerdtree) : permet d'explorer
+facilement le système de fichiers
 
-Permet de visualiser les changements d'un fichier versionné avec Git
-
-[nerdtree](https://github.com/preservim/nerdtree)
-
-Permet d'explorer facilement le système de fichiers
-
-[lightline](https://github.com/itchyny/lightline.vim)
-
-Affiche plus d'informations dans la barre d'état
+[lightline](https://github.com/itchyny/lightline.vim) : affiche plus
+d'informations dans la barre d'état
 
 ## Prérequis
 
